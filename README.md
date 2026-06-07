@@ -27,9 +27,10 @@ This project examines graphite, cobalt, and lithium import dependency across all
 ```
 quad-critical-minerals-supply-chain/
 │
-├── data/
+├── raw-data/
 │   ├── p3_minerals_quad_china.xlsx       # Raw UN Comtrade import data (China → QUAD, 2019–2024)
 │   ├── p3_minerals_quad_world.xlsx       # Raw UN Comtrade import data (World → QUAD, 2019–2024)
+├── cleaned-data/
 │   └── Minerals_QUAD_Dependency.xlsx     # Cleaned dependency table with CAGR (output)
 │
 ├── notebooks/
